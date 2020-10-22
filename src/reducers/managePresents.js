@@ -1,7 +1,7 @@
 export function managePresents(state, action){
   state = { numberOfPresents: 0 };
   switch (action.type) {
-    case: "INCREASE":
+    case "INCREASE":
       numberOfPresents: state.numberOfPresents + 1
     }
   }
