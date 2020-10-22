@@ -3,8 +3,7 @@ export function managePresents(state = { numberOfPresents: 0 }, action){
     case "INCREASE": {
         Object.assign({}, state, {
         numberOfPresents: state.numberOfPresents + 1
-        })}
-      break;
+        })
     default:
       return state
 }
