@@ -10,7 +10,7 @@ export function manageFriends(state = { friends: [] }, action){
           }
         )
     case "REMOVE_FRIEND":
-      const index = state.friends.index
+      const index = state.friends.indexOf( action.id === friend.id )
       return (
         {...state, friends: [...state.friends.slice(0, )]
         )
