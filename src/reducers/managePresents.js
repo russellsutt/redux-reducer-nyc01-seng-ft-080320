@@ -4,7 +4,9 @@ export function managePresents(state = { numberOfPresents: 0 }, action){
       numberOfPresents: state.numberOfPresents + 1
       break;
     default:
-      Object.assign({}, state
+      Object.assign({}, state {
+        numberOfPresents: numberOfPresents + 1
+      }
   }
   return state
 }
