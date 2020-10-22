@@ -6,8 +6,5 @@ export function managePresents(state = { numberOfPresents: 0 }, action){
         })}
       break;
     default:
-
-      })
-  }
-  return state
+      return state
 }
