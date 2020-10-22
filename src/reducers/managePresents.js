@@ -1,7 +1,7 @@
 export function managePresents(state = { numberOfPresents: 0 }, action){
   switch (action.type) {
     case "INCREASE": {
-        Object.assign({}, state, {
+        return Object.assign({}, state, {
         numberOfPresents: state.numberOfPresents + 1
         });
     }
